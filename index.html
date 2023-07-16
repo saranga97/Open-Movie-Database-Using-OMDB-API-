@@ -1,0 +1,53 @@
+<!-- EG/2019/3629
+    KARUNASUNDARA K.M.S.N.
+    EE4207 GUI PROGRAMMING
+    ASSIGNMENT 01 -->
+
+<!-- INDEX(MAIN) PAGE -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Open Movie Database</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <script src="js/axios.min.js"></script>
+
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"> 
+                    <i class="fa fa-film" aria-hidden="true"></i> &nbsp; OPEN MOVIE DATABASE
+                </a>
+            </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h3 class="text-center">Enter Movie Name</h3>
+            <form id="searchForm">
+                <input type="text" class="form-control" id="searchText" placeholder="Type movie name & hit enter">
+            </form>
+        </div>
+    </div>
+
+    <h3 id="headerDisplay" class="text-left">Click on a Movie/TV Show</h3>
+
+    <div class="container">
+        <div id="movies" class="row">
+        </div>
+    </div>
+
+    
+
+</body>
+</html> 
